@@ -3,7 +3,7 @@
   hosts: all
 
   tasks:
-  - name: Install postgres package 
+  - name: Install postgres package (base)
     yum:
       name: postgres
       state: present
