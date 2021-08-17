@@ -6,4 +6,4 @@
   - name: Installs postgres package (base)
     yum:
       name: postgresql
-      state: present
+      stat e: present
