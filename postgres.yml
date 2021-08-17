@@ -5,5 +5,5 @@
   tasks:
   - name: Install postgres package (base)
     yum:
-      name: postgres
+      name: postgresql
       state: present
