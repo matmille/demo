@@ -3,7 +3,7 @@
   hosts: all
 
   tasks:
-  - name: Install postgres package (base)
+  - name: Remove postgres package (base)
     yum:
       name: postgresql
-      state: present
+      state: absent
