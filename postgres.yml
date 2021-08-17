@@ -1,0 +1,9 @@
+---
+- name: Set up a postgres server
+  hosts: all
+
+  tasks:
+  - name: Install postgres package 
+    yum:
+      name: postgres
+      state: present
